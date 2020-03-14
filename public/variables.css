@@ -1,0 +1,35 @@
+:root {
+  --hsl-black: 0, 0%, 0%;
+  --hsl-grey-d: 0, 0%, 13%;
+  --hsl-grey-m: 0, 0%, 20%;
+  --hsl-grey-l: 0, 0%, 50%;
+  --hsl-grey-vvl: 0, 0%, 80%;
+  --hsl-white: 0, 0%, 100%;
+  --hsl-offwhite: 0, 0%, 98%;
+  --hsl-theme-pri: 236, 92%, 66%;
+
+  --theme-border: hsla(var(--hsl-grey-l), 0.1);
+
+  --app-header-height: 100px;
+  --app-footer-height: 60px;
+  --app-avatar-height: 4rem;
+  --app-page-min-height: calc(
+    100vh - var(--app-header-height) - var(--app-footer-height)
+  );
+  --height-tile: 200px;
+
+  --width-section-s: 300px;
+  --width-section-m: 400px;
+
+  --margin-xl: 3rem;
+  --margin-l: 2rem;
+  --margin-m: 1rem;
+  --margin-s: 0.5rem;
+  --margin-xs: 0.25rem;
+  --margin-xxs: 0.125rem;
+
+  --box-shadow-s: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow-m: 0 10px 20px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.24);
+
+  --time-transition: 0.3s;
+}
